@@ -1,0 +1,21 @@
+
+.FooterDiv{
+    color: white;
+    padding: 20px 20px;
+    background-color: #212529;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    box-shadow: -2px -2px 10px 5px #777;
+ }
+
+ .rights{
+    margin-right: 50px;
+    text-align: right;
+ }
+
+ .ArrowUp{
+     margin-left: 50px;
+     text-align: left;
+ }

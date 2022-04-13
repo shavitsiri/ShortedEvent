@@ -1,0 +1,203 @@
+/*****************     **************/
+
+/** גודל מחשב */
+@media all and (min-width: 480px) {
+    .HomeBody{
+      text-align:center;
+      min-height: 85vh;
+      display: grid;
+      grid-template-columns: auto auto auto ; 
+   }
+   .sideBar{
+    margin:0 auto;
+    margin-top:15px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: -2px -2px 10px 5px #03A586;
+    min-width: 225px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../public/WebPictures/sideBarBackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+   .sideBar button{
+     margin-top: 20px;
+     min-height: 90px;
+     width: 165px;
+     border-radius: 10px;
+     margin-bottom: 15px;
+     box-shadow: 1px 1px 5px 3px gray;
+     font-size: 30px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     color: white;
+   }
+   /**  רקעים לכפתורים */
+   .BtnBarTenders{
+    background-image: url('../../public/WebPictures/BarTender.jpg');
+   }
+   .BtnDj{
+    background-image: url('../../public/WebPictures/DjBtn.jpg');
+   }
+   .BtnCatering{
+    background-image: url('../../public/WebPictures/BtnCateringHome.jpg');
+   }
+   .BtnEquipmentHome{
+    background-image: url('../../public/WebPictures/EquipmentBtnHome.jpg');
+   }
+   .BtnPlaceSea{
+    background-image: url('../../public/WebPictures/eventSea.jpg');
+   }
+   .BtnRoofTop{
+    background-image: url('../../public/WebPictures/rooftopPlace.jpg');
+   }
+   .BtnSmallEvents{
+    background-image: url('../../public/WebPictures/smallEvents.jpg');
+   }
+   .BtnOtDoorEvent{
+    background-image: url('../../public/WebPictures/outdoorevent.jpg');
+   }
+
+    .mainDivHome{
+      height: 80vh;
+      margin: auto;
+      max-width: 800px;
+      background-image: url('../../public/WebPictures/backBtnCreate.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 15px;
+      box-shadow: -2px -2px 10px 5px #777;
+      display: grid;
+      grid-template-columns: auto auto;  
+    }
+    .DivBtnCreateEventHome button{
+      margin-top: 25px;
+      width: 200px;
+      height: 100px;
+      border:1px solid black;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: bold;  
+      margin-bottom: 25px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .BtnCreate{
+      background-image: url('../../public/WebPictures/marc-babin-aQWmCH_b3MU-unsplash.jpg');
+    }
+    .BtnLogin{
+      background-image: url('../../public/WebPictures/LoginBtn.jpg');
+    }
+    .BtnsignUp{
+      background-image: url('../../public/WebPictures/signUpNow.jpg');
+    }
+  }
+  
+  
+  @media all and (max-width: 480px) {
+    .HomeBody{
+        text-align:center;
+        min-height: 85vh;
+        display: flex;
+        flex-direction: column;
+     }
+     .sideBar{
+      margin:0 auto;
+      margin-top:15px;
+      background-color: whitesmoke;
+      border-radius: 10px;
+      box-shadow: -2px -2px 10px 5px #03A586;
+      width: 375px;
+      margin-bottom: 25px;
+      background-image: url('../../public/WebPictures/sideBarBackground.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+     }
+     .sideBar button{
+       color: aliceblue;
+       font-weight: bold;
+       min-height: 75px;
+       width: 80px;
+       border-radius: 10px;
+       margin-bottom: 15px;
+       box-shadow: 1px 1px 5px 3px gray;
+       font-size: 20px;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       margin: 5px;
+     }
+     /**  רקעים לכפתורים */
+     .BtnBarTenders{
+      background-image: url('../../public/WebPictures/BarTender.jpg');
+     }
+     .BtnDj{
+      background-image: url('../../public/WebPictures/DjBtn.jpg');
+     }
+     .BtnCatering{
+      background-image: url('../../public/WebPictures/BtnCateringHome.jpg');
+     }
+     .BtnEquipmentHome{
+      background-image: url('../../public/WebPictures/EquipmentBtnHome.jpg');
+     }
+     .BtnPlaceSea{
+      background-image: url('../../public/WebPictures/eventSea.jpg');
+     }
+     .BtnRoofTop{
+      background-image: url('../../public/WebPictures/rooftopPlace.jpg');
+     }
+     .BtnSmallEvents{
+      background-image: url('../../public/WebPictures/smallEvents.jpg');
+     }
+     .BtnOtDoorEvent{
+      background-image: url('../../public/WebPictures/outdoorevent.jpg');
+     }
+  
+      .mainDivHome{
+        height: 100%;
+        margin: auto;
+        max-width: 375px;
+        background-image: url('../../public/WebPictures/backBtnCreate.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+        box-shadow: -2px -2px 10px 5px #777;
+        display: flex;
+        flex-direction: column;
+      }
+      .DivBtnCreateEventHome button{
+        margin-top: 25px;
+        width: 200px;
+        height: 100px;
+        border:1px solid black;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;  
+        margin-bottom: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .BtnCreate{
+        background-image: url('../../public/WebPictures/marc-babin-aQWmCH_b3MU-unsplash.jpg');
+      }
+      .BtnLogin{
+        background-image: url('../../public/WebPictures/LoginBtn.jpg');
+      }
+      .BtnsignUp{
+        background-image: url('../../public/WebPictures/signUpNow.jpg');
+      }
+
+
+
+  }
+  

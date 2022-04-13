@@ -1,0 +1,29 @@
+
+
+.ContatcGridDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.BtnShowDataGrid{
+    margin-top: 55px;
+    min-width: 250px;
+    height: 55px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: coral;
+    font-weight: bold;
+    font-size: 22px;
+    box-shadow: 2px 2px 5px 5px white;
+
+}
+
+.DataGridDiv{
+    margin-top: 15px;
+    height: 400px;
+    width: 80%;
+    color: black;
+}

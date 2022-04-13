@@ -1,0 +1,92 @@
+
+/************************************ כרטיס מכרז    /***********************************/
+/****   גודל כרטיס   מחשב  **/
+@media all and (min-width: 480px) {
+
+  .BtnShowTender{
+    background-color:rgb(248, 248, 248);
+    border-radius:10px;
+    border:3px solid darkgray;
+    font-family:cursive;
+    font-size:18px;
+    font-weight:bold;
+    width:60%;
+    margin-top:25px;
+    box-shadow: 2px 2px 5px 5px rgb(231, 229, 229);
+  }
+  
+  .TenderCard {
+    margin-top: 25px;
+    padding: 30px 0;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 320px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 10px;
+    padding: 25px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    box-shadow: -2px -2px 10px 5px #777;
+  }
+  .TenderCard form label{
+      color: black;
+      font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      float: right;
+  }
+  .TenderCard button{
+    border-radius: 40px;
+    border: 3px solid pink;
+    background-color: #3F3F3F;
+    color: white;
+    font-weight: bold;
+    width: 60%;
+  }
+}
+
+/****   גודל כרטיס   טלפון  **/
+@media all and (max-width: 480px) {
+  .BtnShowTender{
+    background-color:rgb(248, 248, 248);
+    border-radius:10px;
+    border:3px solid darkgray;
+    font-family:cursive;
+    font-size:18px;
+    font-weight:bold;
+    width:60%;
+    margin-top:25px;
+    box-shadow: 2px 2px 5px 5px gray;
+  }
+  .TenderCard  {
+    text-align: right;
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 330px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(250, 243, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 5px 5px rgb(197, 197, 197);
+  }
+  .TenderCard form label {
+      color: black;
+      font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      float: right;
+  }
+  .TenderCard button{
+    border-radius: 40px;
+    border: 3px solid pink;
+    background-color: #3F3F3F;
+    color: white;
+    font-weight: bold;
+    width: 60%;
+  }
+}

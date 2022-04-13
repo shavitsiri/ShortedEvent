@@ -1,0 +1,104 @@
+/**************************    שינוי פרטים אישיים        *********************/
+/****   גודל מכרזים שלי   מחשב  **/
+@media all and (min-width: 480px){
+    .BodyChangeDetalis{
+        min-height: 80vh;
+        text-align: center;
+    }
+
+    .changeMyDetaildform {
+      padding: 10px 0;
+      margin: 0 auto;
+      margin-top: 30px;
+      max-width: 650px;
+      border: 3px solid rgb(226, 220, 220);
+      border-radius: 10px;
+      background-color: rgb(248, 248, 248);
+      box-shadow: -2px -2px 5px 5px white;
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+    }
+    .changeMyDetaildform h3 {
+        text-align: center;
+    }
+    .changeMyDetaildform label {
+      color: black;
+      font-size: 16px;  
+      width: 110px;
+      float: right;  
+      margin-right: 30px;    
+    }
+    .changeMyDetaildform input {
+      margin-left: 25px;
+      text-align: right;
+      margin-bottom: 10px;
+    }
+    .changeMyDetaildform button {
+      border-radius: 10px;
+      margin-top: 10px;
+      margin: 15px auto;
+      border:2px solid black;   
+      box-shadow: -2px -2px 5px 5px rgb(51, 51, 51);   
+      }
+      .BtnChangeDetails button{
+        background-color: rgb(68, 68, 68);
+      }
+  }
+  
+  /****   גודל מכרזים שלי   טלפון  **/
+  @media all and (max-width: 480px) {
+
+    .BodyChangeDetalis{
+        min-height: 82vh;
+        text-align: center;
+    }
+    .changeMyDetaildform {
+        padding: 10px 0;
+        margin: 0 auto;
+        margin-top: 30px;
+        min-height: 50vh;
+        max-width: 360px;
+        border: 3px solid rgb(226, 220, 220);
+        border-radius: 10px;
+        background-color: rgb(248, 248, 248);
+        box-shadow: -2px -2px 5px 5px white;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+    .changeMyDetaildform h3 {
+        text-align: center;
+    }
+    .changeMyDetaildform label {
+      color: black;
+      font-size: 16px;  
+      width: 100px;
+      float: right;  
+      margin-right: 30px;    
+    }
+    .changeMyDetaildform input {
+      margin-left: 55px;
+      text-align: right;
+      margin-bottom: 10px;
+    }
+    .changeMyDetaildform button {
+      border-radius: 10px;
+      margin-top: 10px;
+      margin: 15px auto;
+      border:2px solid black;   
+      box-shadow: -2px -2px 5px 5px rgb(51, 51, 51);   
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+
+      }
+      .BtnChangeDetails button{
+        background-color: rgb(68, 68, 68);
+        margin: 10px;
+        width: 170px;
+        font-size: 15px;
+      }
+  }
+  

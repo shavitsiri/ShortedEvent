@@ -1,0 +1,72 @@
+
+/***************** עמוד ראשי   **************/
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: Heebo;
+}
+
+/*************************    הניווטים navBar       ********************/
+@media all and (max-width: 480px) {
+  .me-auto{
+    margin-left: 5%;
+    font-size: 25px;
+    font-family: cursive;
+    }
+  }
+  @media all and (min-width: 480px) {
+    .me-auto{
+      margin-left: 25%;
+      font-size: 25px;
+      font-family: cursive;
+      }
+    }
+
+/***************** navbar    **************/
+.navBarIcons{
+  margin-right: 25px;
+  
+}
+div#basic-navbar-nav.navbar-collapse.collapse.show{
+  background-color: white;
+  font-weight: bold;
+  
+}
+div#basic-navbar-nav.navbar-collapse.collapse.show .navBarIcons{
+  margin-left: 25px;
+}
+
+.App{
+  background-image: url('../../public/WebPictures/Back100.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
+
+
+
+
+
+/****   גודל מכרזים שלי   מחשב  **/
+@media all and (min-width: 480px){
+  .TenderList {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+  
+  }
+}
+
+/****   גודל מכרזים שלי   טלפון  **/
+@media all and (max-width: 480px){
+  .TenderList {
+    display: grid;
+    grid-template-columns: auto ;
+    padding: 10px;
+  
+  }
+}
+
+
