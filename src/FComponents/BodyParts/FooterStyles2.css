@@ -1,21 +1,25 @@
-
+/* 
 .FooterDiv{
     color: white;
-    padding: 20px 20px;
-    background-color: #212529;
-    position: relative;
+    bottom: 0;
+    background-color: #383838;
+    position: fixed;
     width: 100%;
     display: grid;
     grid-template-columns: auto auto ;
     box-shadow: -2px -2px 10px 5px #777;
+    height: 50px;
+    margin-top: 5px auto;
  }
 
  .rights{
     margin-right: 50px;
     text-align: right;
+    margin-top: 10px;
  }
 
  .ArrowUp{
      margin-left: 50px;
      text-align: left;
- }
+     margin-top: 10px;
+ } */

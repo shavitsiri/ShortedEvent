@@ -1,0 +1,64 @@
+
+/****   גודל כרטיס   מחשב  **/
+@media all and (min-width: 480px) {
+    .mainDivGraphs{
+        
+    }
+    h1{
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .divHoldDiagrams{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        margin: 10px;
+        padding-bottom: 60px;
+    }
+
+    h5{
+        margin-top: 10px;
+    }
+    .divEachDiagram{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid black;
+        margin: 15px;
+        border-radius: 8px;
+        background-color:#E5E5E5;
+    }
+}
+
+/****   גודל כרטיס   טלפון  **/
+@media all and (max-width: 480px) {
+    .mainDiv{
+        background-color: #525252;
+        margin-bottom: 150px;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .divHoldDiagrams{
+        display:flex;
+        flex-direction: column;
+    }
+
+    h5{
+        margin-top: 10px;
+    }
+
+    .divEachDiagram{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid black;
+        margin: 15px;
+        border-radius: 8px;
+        background-color:#E5E5E5;
+    }
+}

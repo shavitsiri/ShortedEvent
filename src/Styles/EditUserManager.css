@@ -3,7 +3,7 @@
 /****   גודל טופס   עריכת משתמש מחשב  **/
 @media all and (min-width: 480px) {
     .EditUsersDivMain{
-        min-height: 80vh;
+        margin: 30px;
         text-align: center;
         
     }
@@ -13,6 +13,7 @@
         padding: 10px;
         text-align: right; 
         justify-content: center;
+        
     }
     .EditUserCard {
         display: flex;
@@ -29,7 +30,8 @@
         font: 20px bold;
         font-family: cursive; 
         box-shadow: -2px -2px 10px 5px rgb(255, 254, 254);
-        margin: 20px  ;
+        margin: 30px  ;
+        
     }
     .BtnDeleteUserCard {
       background-color: #ff90a0;

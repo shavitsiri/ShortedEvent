@@ -14,10 +14,11 @@
       background-color: whitesmoke;
       border-radius: 10px;
       box-shadow: -2px -2px 10px 10px rgb(229, 226, 226);
+      background-image: url('data:image/jpeg;base64,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');
     }
     .CreateForm input {
       text-align: center;
-      margin-top: 7px;
+      margin-top: 10px;
       width: 50%;
       display: flex;
       flex-direction: column;
@@ -26,20 +27,49 @@
       margin-bottom: 5px;
     }
     .MultiSelectRequire{
-      width: 50%;
       margin-top: 8px;
+      margin-right: 25%;
       margin-left: 25%;
-      text-align: right;
-      align-content: right;
+      text-align: center;
     }
-    .CreateForm button{
+    /* .MultiSelectBox {
+      color:palevioletred;
+      text-align: center;
+      align-items: center;
+    } */
+div.dropdown-content{
+  text-align: center;
+  color: black;
+  right: 0;
+  position: absolute;
+  /* border: 5px solid pink; */
+}
+div.panel-content{
+  /* border: 5px solid black; */
+}
+div.select-panel{
+  /* border: 5px solid green; */
+  margin-left: 100px;
+  padding: 25px;
+}
+ul.options{
+  /* border: 5px solid gray; */
+}
+
+
+
+    #search_input {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .BtnCreateEventForm {
       margin-top: 25px;
       background-color: rgb(17, 16, 16);
-      box-shadow: -2px -2px 10px 10px rgb(41, 41, 41);
+      box-shadow: -2px -2px 5px 5px rgb(41, 41, 41);
       margin-left: 25px;
       width: 200px;
-      
-
     }
   }
   
@@ -58,6 +88,7 @@
         background-color: whitesmoke;
         border-radius: 10px;
         box-shadow: -2px -2px 10px 10px rgb(229, 226, 226);
+        background-color: aliceblue;
       }
       .CreateForm input {
         text-align: center;
@@ -76,7 +107,7 @@
         text-align: right;
         align-content: right;
       }
-      .CreateForm button{
+      .BtnCreateEventForm{
         margin-top: 25px;
         background-color: rgb(17, 16, 16);
         box-shadow: -2px -2px 10px 10px rgb(41, 41, 41);

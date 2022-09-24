@@ -1,15 +1,15 @@
 import React from 'react';
 import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
+import Button from 'react-bootstrap/esm/Button';
 
 export default function AlertError(props) {
   return (
-    <div style={{minWidth: '400px',maxWidth: '550px',alignSelf:'center',marginTop:'30px',textAlign:'right'}} >
-               <Alert style={{fontFamily:'cursive',fontSize:'18px',borderRadius:'5px',display:'flex', flexDirection:'row-reverse'}}  severity={props.severityAlert}>
-
-                    <AlertTitle style={{marginRight:'40px'}}  ><button onClick={() => props.closeAlert()} style={{borderRadius:'150px',color:'black',border:'2px solid black',backgroundColor:'gray',width:'25px',marginRight:'120px'}}  ><b>X</b></button> {props.message} </AlertTitle>
-
-                </Alert> 
-        </div>
+    <div style={{ display: 'flex', flexDirection: 'row', padding:'1px' }} >
+      <Alert style={{border:'1px solid black'}} severity={props.severityAlert}>
+        <AlertTitle  > {props.message} </AlertTitle>
+        <Button onClick={() => props.closeAlert()} style={{borderRadius:'12px',backgroundColor:'#FFC8BB',color:'black'}} >סגור</Button>
+      </Alert>
+    </div>
   )
 }

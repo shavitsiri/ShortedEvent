@@ -16,10 +16,10 @@ export default function InquiriesCard(props) {
   return (
         <div className='DataGridDiv' >
       <DataGrid
-        sx={{backgroundColor:'lightblue', border:'5px solid gray', borderRadius:'40px',color:'black',fontSize:'16px'}}
+        sx={{backgroundColor:'whitesmoke', border:'3px solid gray', borderRadius:'10px',color:'black',fontSize:'16px',fontWeight:'bold',boxShadow:'-2px -2px 5px 5px gray',minHeight:'70vh'}}
         rows={inquiresArrStr}
         columns={columns}
-        pageSize={5}
+        pageSize={7}
         rowsPerPageOptions={[5]}
         checkboxSelection
       />

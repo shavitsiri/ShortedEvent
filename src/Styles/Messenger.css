@@ -1,0 +1,185 @@
+/****   גודל כרטיס   מחשב  **/
+@media all and (min-width: 480px) {
+    .mainDivMessenger{
+        /* background-image: linear-gradient(to right, rgba(255,0,0,0), #B0BBF5); */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+    }
+    .divHoldChat{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 8px;
+        border:2px solid black;
+        width: fit-content;
+        margin: 10px;
+        background-color: aliceblue;
+
+    }
+    .divHoldPeopleList{
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+        background-color: #262626;
+    }
+
+    .divHoldNameChatAndConversation{
+        background-image: url('https://i.pinimg.com/736x/85/04/30/850430a750fb80c1ebaa5e740fc7cbd6.jpg');
+        width:350px;
+        border-radius: 8px;
+        max-width: 350px;
+        position: relative;
+        overflow-y: auto;
+    }
+
+    .divHoldNameChat{
+        display: flex;
+        flex-direction: column;
+        color: #F4F2F2;
+        height: 450px;
+        border-radius: 8px;
+        
+    }
+    .nameOfChatWith{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #1F1C1C;
+        background-color:#AAE3FF ;
+    }
+
+    .divHoldConversation{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        min-height: 325px;
+    }
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightblue;
+    border-radius: 10px;
+  }
+
+    .divHoldInputAndBtn{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        bottom: 0;
+        position: relative;
+        width: 100%; 
+        padding-top: 20px;
+    }
+    .inputMessage{
+        border-radius: 8px;
+        width: 85%;
+        text-align: right;
+        height:35px;
+    }
+    .BtnSendMessage{
+        border-radius: 8px;
+        background-color: #45B8FE;
+        color: white;
+        margin-left: 5px;
+    }
+    .divNoChatOpen{
+        background-color: #262626;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+/****   גודל כרטיס   טלפון  **/
+@media all and (max-width: 480px) {
+    .mainDivMessenger{
+        background-image: linear-gradient(to right, rgba(255,0,0,0), #B0BBF5);
+        display: flex;
+        justify-content: center;
+
+    }
+    .divHoldChat{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 8px;
+        border:2px solid black;
+        width: fit-content;
+        height: 450px;
+        margin: 10px;
+        background-color: aliceblue;
+    }
+    .divHoldPeopleList{
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+        border-radius: 8px;
+        background-color: azure;
+        height: 400px;
+    }
+
+    .divHoldNameChatAndConversation{
+        background-color:#1F1C1C;
+        width:350px;
+        border-radius: 8px;
+        max-width: 350px;
+    }
+
+    .divHoldNameChat{
+        display: flex;
+        flex-direction: column;
+        background-color:#1F1C1C ;
+        color: #F4F2F2;
+        height: 450px;
+        border-radius: 8px;
+    }
+
+    .divHoldConversation{
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        border-radius: 8px;
+    }
+
+    .divHoldInputAndBtn{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .inputMessage{
+        border-radius: 8px;
+        width: 290px;
+        text-align: right;
+        height:35px;
+    }
+    .BtnSendMessage{
+        border-radius: 8px;
+        background-color: blue;
+        color: white;
+        margin-left: 5px;
+    }
+    .divNoCharOpen{
+        background-color: #1F1C1C;
+        max-height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

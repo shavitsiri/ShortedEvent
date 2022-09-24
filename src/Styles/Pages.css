@@ -18,6 +18,7 @@
       margin-left: 25%;
       font-size: 25px;
       font-family: cursive;
+      font-weight: bold;
       }
     }
 
@@ -36,7 +37,7 @@ div#basic-navbar-nav.navbar-collapse.collapse.show .navBarIcons{
 }
 
 .App{
-  background-image: url('../../public/WebPictures/Back100.jpg');
+  background-image: url('https://images.unsplash.com/photo-1643759543584-fb6f448d42d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -44,18 +45,12 @@ div#basic-navbar-nav.navbar-collapse.collapse.show .navBarIcons{
 }
 
 
-
-
-
-
-
 /****   גודל מכרזים שלי   מחשב  **/
 @media all and (min-width: 480px){
   .TenderList {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto  ;
     padding: 10px;
-  
   }
 }
 
@@ -65,7 +60,6 @@ div#basic-navbar-nav.navbar-collapse.collapse.show .navBarIcons{
     display: grid;
     grid-template-columns: auto ;
     padding: 10px;
-  
   }
 }
 

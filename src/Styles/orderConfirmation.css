@@ -1,0 +1,11 @@
+
+.thankForPurchase {
+    color: aliceblue;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    background-color: #1F222C;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 8px;
+  }

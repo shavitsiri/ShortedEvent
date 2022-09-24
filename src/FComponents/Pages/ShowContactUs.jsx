@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import InquiriesCard from '../Cards/InquiriesCard';
 import { collection, getDocs, doc, deleteDoc } from "firebase/firestore"; 
 import db from "../utils/Firebase";
@@ -11,13 +11,13 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 export default function ShowContactUs() {
 
     const [showHideInquires, setShowHideInquires] = useState(false);
+    const [once, setOnce] = useState(0);
 
     let count = 1;
     let arr = new Array();
     const [arrToprint, setArrToprint] = useState();
 
-    const ShowInquires = async (e) => {
-      e.preventDefault();
+    const ShowInquires = async () => {
       try{
         const querySnapshot = await getDocs(collection(db, "ContactUs"));
         querySnapshot.forEach(async(docEl) => {
@@ -31,12 +31,13 @@ export default function ShowContactUs() {
     setShowHideInquires(!showHideInquires);
     }
 
+    useEffect(() => {
+      ShowInquires();
+    }, [])
+    
+
   return (
     <div className='ContatcGridDiv' >
-
-        
-        <button className='BtnShowDataGrid' 
-                            onClick={e => ShowInquires(e)} > <ArrowDownwardIcon/> show/hide inquires <ArrowDownwardIcon/> </button>
                             
         {showHideInquires? <InquiriesCard inquiresArr = {arrToprint} /> : null}
         

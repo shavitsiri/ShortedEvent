@@ -1,0 +1,14 @@
+.mainDivCardRate{
+    background-color: whitesmoke;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 12px;
+
+}
+.cardRate{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
